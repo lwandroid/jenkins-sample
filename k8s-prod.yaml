@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: dockerliwei/jenkins-demo:<BUILD_TAG>
+      - image: 172.16.99.3/test/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
